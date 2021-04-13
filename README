@@ -1,0 +1,17 @@
+CERINTA NUMARUL 1:
+
+Initial, am preluat clasa Player din problema, dupa care am construit o clasa Team care are ca atribute numarul playerilor, un vector de coechiperi in care i-am retinut, scorul final pe care l-am adaugat ulterior, fiindu-mi necesar la rezovlarea cerintei nr.3 si numele echipei. Am creat apoi o clasa denumita linked_list in care am stocat toate echipele citite. Dupa aceea, am realizat o functie pe care am apelat-o si in main, aceea de citire si afisare. Astfel, dupa ce am creat lista, am facut o functie de reverse care mi-a intors toate elementele pentru a putea fi afisata in ordine inversa, fix cum s-a cerut in ennuntul problemei.Apoi am afisat-o in fisier.
+
+CERINTA NUMARUL2:
+
+Pentru cerinta numarul 2, a fost necesar sa implementez o functie care primea ca parametru un numar si il punea ca exponent, pentru a putea calcula 2^n;dupa aceea, am creat o functie care cauta in lista cel mai mic scor din lista si il stergea.Apoi, am facut o functie pe care am denumit-o delete_afisare in care am sters cel mai mic element pana cand numarul echipelor a devenit egal cu 2^n;Dupa ce s-a realizat si aceasta operatie, am mai creat o functie in care denumita stergere_echipe pe care am apelat-o si in main, trimitandu-i ca parametru lista obtinuta la punctul anterior.
+
+CERINTA NUMARUL 3:
+ Aici recunosc ca am intampinat dificultati si am rezolvat problema in main.Inainte de asta, am creat doua clase, respectiv clasa Queue si clasa Stiva_buna in care am facut cateva teste prima oara, iar apoi am trecut la algoritmul propriu-zis. Inital, in main, am creat o coada care primea ca parametru lista(am redefinit operatorul [] pentru a-mi fi mai usor- am apelat coada.addcoada(lista[i]).Am inceput prin a face un while in care am afisat initial, prima coada(in afisarea cozii, m-am ajutat de functiile de padding pentru a arata exact ca in fisierele .out)Apoi, am facut un while care functiona atat timp cat coada nu era goala si am inceput sa compar scorurile intre ele) Cand obtineam echipa castigatoare, cum o puneam intr-o stiva, iar apoi afisam acea stiva tot cu instructiunile de padding, iar apoi, am creat un alt while care functiona atat timp cat stiva nu era goala si o puneam din nou in coada.Structura s-a repetat pana cand coada a devenit goala si astfel, meciurile s-au terminat.
+ 
+ CERINTA NUMARUL 4:
+ 
+ Pentru realizarea cerintei numarul 4, am implementat un arbore de tip bst cu ajutorul tutorialelor de pe youtube si m-am folosit de functii pentru a pune echipele exact ca in checker. Apoi, am schimbat parametrii functiei cu care am rezolvat cerinta 3, adaugandu-i inca o stiva, inca o coada si un arbore pentru a copia datele in ele, fara a le pierde in momentul inserarii in arbore.La final, am apelat in main cu functia de display ca sa imi afiseze in continuare in fisier.
+ 
+ 
+ P.S: Cerinta numarul 5 nu am mai apucat sa o fac, dar cred ca daca m-as fi apucat mai devreme, as fi avut cu siguranta timp. 
